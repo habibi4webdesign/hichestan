@@ -1,0 +1,24 @@
+.Box {
+  flex-grow: 1;
+  border-left: 1px solid rgba(0, 5, 25, 0.24);
+  height: 34px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 10px;
+  color: #00061a;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+  }
+  span {
+    font-size: 10px;
+    width: 40px;
+    top: 20px;
+    position: absolute;
+  }
+  &:last-child {
+    border-left: none;
+  }
+}
